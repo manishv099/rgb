@@ -1,0 +1,12 @@
+.profile{
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 16px 24px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    .set_btn{
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+}

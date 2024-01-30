@@ -1,0 +1,15 @@
+.btm_link{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    min-height: 64px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn{
+        width: 89px;
+    }
+}

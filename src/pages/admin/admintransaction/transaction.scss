@@ -1,0 +1,15 @@
+.table_record{
+    overflow: hidden;
+    overflow-x: auto;
+}
+table{
+    thead{
+        position: sticky;
+        top: 0px;
+        z-index: 2;
+    }
+    tbody{
+        position: relative;
+        z-index: 1;
+    }
+}

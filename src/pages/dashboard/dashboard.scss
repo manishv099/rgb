@@ -1,0 +1,64 @@
+.modelPopUp{
+    justify-content: center !important;
+    height: 116px;
+    color: #fff;
+}
+.color_boxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .circle{
+        width: 148px;
+        height: 148px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        small{color: #fff;}
+    }
+    .form-control{
+        width: 89px;
+        margin: 9px auto 0;
+    }
+}
+.summary{
+    .table_record{
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    table{
+        thead{
+            position: sticky;
+            top: 0px;
+            z-index: 2;
+        }
+        tbody{
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+    .color_boxs{
+        .circle{
+            width: 94px;
+            height: 94px;
+        }
+        .form-control{
+            width: 76px;
+        }
+    }
+}
+@media screen and (max-width:450px) {
+    .color_boxs{
+        .circle{
+            width: 64px;
+            height: 64px;
+        }
+        .form-control{
+            width: 50px;
+        }
+    }
+}
